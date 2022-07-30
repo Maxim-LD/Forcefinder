@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ForceFinder.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ForceFinder.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ForceFinder.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ForceFinder.Logic.dll": {}
+        }
+      },
+      "ForceFinder.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ForceFinder.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ForceFinder.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ForceFinder.Logic/1.0.0": {
+      "type": "project",
+      "path": "../ForceFinder/ForceFinder.Logic.csproj",
+      "msbuildProject": "../ForceFinder/ForceFinder.Logic.csproj"
+    },
+    "ForceFinder.Model/1.0.0": {
+      "type": "project",
+      "path": "../ForceFinder.Model/ForceFinder.Model.csproj",
+      "msbuildProject": "../ForceFinder.Model/ForceFinder.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ForceFinder.Logic >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.API\\ForceFinder.API.csproj",
+      "projectName": "ForceFinder.API",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.API\\ForceFinder.API.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.API\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder\\ForceFinder.Logic.csproj": {
+              "projectPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder\\ForceFinder.Logic.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
