@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LtvmNGHLM2ZSMdX9iK2ZciKJixMjWuKF0pFCuSx2qPusA0ZBTwVyNs7RQwkgPjucO2zPce5JMVaDeBdTzHvSfQ==",
+  "dgSpecHash": "DAcDDt/XTZKW+7mObU1awMly9DWsb5XJTMKrUPD9HkZpQEliZaTNTXA4bnwV1eGvblSVZwdeb9MsNAKU19fHVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.API\\ForceFinder.API.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\ForceFinder.Migration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
