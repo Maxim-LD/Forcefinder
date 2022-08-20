@@ -1468,33 +1468,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "ForceFinder.Logic/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "ForceFinder.Model": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ForceFinder.Logic.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ForceFinder.Logic.dll": {}
-        }
-      },
-      "ForceFinder.Migration/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "ForceFinder.Model": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.10"
-        },
-        "compile": {
-          "bin/placeholder/ForceFinder.Migration.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ForceFinder.Migration.dll": {}
-        }
-      },
       "ForceFinder.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5680,16 +5653,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "ForceFinder.Logic/1.0.0": {
-      "type": "project",
-      "path": "../ForceFinder/ForceFinder.Logic.csproj",
-      "msbuildProject": "../ForceFinder/ForceFinder.Logic.csproj"
-    },
-    "ForceFinder.Migration/1.0.0": {
-      "type": "project",
-      "path": "../ForceFinder.Migration/ForceFinder.Migration.csproj",
-      "msbuildProject": "../ForceFinder.Migration/ForceFinder.Migration.csproj"
-    },
     "ForceFinder.Model/1.0.0": {
       "type": "project",
       "path": "../ForceFinder.Model/ForceFinder.Model.csproj",
@@ -5698,8 +5661,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ForceFinder.Logic >= 1.0.0",
-      "ForceFinder.Migration >= 1.0.0",
+      "ForceFinder.Model >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.10"
     ]
   },
@@ -5709,11 +5671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.API\\ForceFinder.API.csproj",
-      "projectName": "ForceFinder.API",
-      "projectPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.API\\ForceFinder.API.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\ForceFinder.Migration.csproj",
+      "projectName": "ForceFinder.Migration",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\ForceFinder.Migration.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.API\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5730,11 +5692,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\ForceFinder.Migration.csproj": {
-              "projectPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\ForceFinder.Migration.csproj"
-            },
-            "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder\\ForceFinder.Logic.csproj": {
-              "projectPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder\\ForceFinder.Logic.csproj"
+            "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Model\\ForceFinder.Model.csproj": {
+              "projectPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Model\\ForceFinder.Model.csproj"
             }
           }
         }
@@ -5765,9 +5724,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

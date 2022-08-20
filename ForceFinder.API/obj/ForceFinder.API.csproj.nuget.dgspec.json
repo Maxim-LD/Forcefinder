@@ -28,6 +28,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\ForceFinder.Migration.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\ForceFinder.Migration.csproj"
+              },
               "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder\\ForceFinder.Logic.csproj": {
                 "projectPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder\\ForceFinder.Logic.csproj"
               }
@@ -43,6 +46,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,6 +66,70 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\ForceFinder.Migration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\ForceFinder.Migration.csproj",
+        "projectName": "ForceFinder.Migration",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\ForceFinder.Migration.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Migration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Model\\ForceFinder.Model.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\ForceFinder\\ForceFinder.Model\\ForceFinder.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
